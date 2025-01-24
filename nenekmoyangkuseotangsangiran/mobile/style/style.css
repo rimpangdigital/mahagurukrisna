@@ -666,12 +666,12 @@ i,u{font-style:normal;text-decoration:none;}
 .thickness .center_part{position:relative;height:auto;width:100%;}
 .thickness .bottom_part{position:relative;height:50px;width:100%;}
 .thickness .part{background-repeat:no-repeat;}
-.left_thickness .top_part{background:url(./icon/thickness_left.png);background-position:right 0;}
-.left_thickness .center_part{background:url(./icon/thickness_left.png);background-position:right -50px;}
-.left_thickness .bottom_part{background:url(./icon/thickness_left.png);background-position:right bottom;}
-.right_thickness .top_part{background:url(./icon/thickness.png);background-position:left 0;}
-.right_thickness .center_part{background:url(./icon/thickness.png);background-position:left -50px;}
-.right_thickness .bottom_part{background:url(./icon/thickness.png);background-position:left bottom;}
+.left_thickness .top_part{background:url(icon/thickness_left.png);background-position:right 0;}
+.left_thickness .center_part{background:url(icon/thickness_left.png);background-position:right -50px;}
+.left_thickness .bottom_part{background:url(icon/thickness_left.png);background-position:right bottom;}
+.right_thickness .top_part{background:url(icon/thickness.png);background-position:left 0;}
+.right_thickness .center_part{background:url(icon/thickness.png);background-position:left -50px;}
+.right_thickness .bottom_part{background:url(icon/thickness.png);background-position:left bottom;}
 .left_thickness{
 	-webkit-transform-origin : 100% 0%;
 	-moz-transform-origin : 100% 0%;
@@ -1203,7 +1203,7 @@ i,u{font-style:normal;text-decoration:none;}
   /*left: auto;*/
   width: 20px;
   height: 100%;
-  background-image: url(./icon/leftCoil.png);
+  background-image: url(icon/leftCoil.png);
   background-repeat: repeat-y;
 
   -webkit-transform-origin: 0% 0%;
@@ -1222,7 +1222,7 @@ i,u{font-style:normal;text-decoration:none;}
   /*right: auto;*/
   width: 21px;
   height: 100%;
-  background-image: url(./icon/rightCoil.png);
+  background-image: url(icon/rightCoil.png);
   background-repeat: repeat-y;
 
   -webkit-transform-origin: 0% 0%;
@@ -1241,7 +1241,7 @@ i,u{font-style:normal;text-decoration:none;}
   /*left: auto;*/
   height: 20px;
   width: 100%;
-  background-image: url(./icon/upCoil.png);
+  background-image: url(icon/upCoil.png);
   background-repeat: repeat-x;
 
   -webkit-transform-origin: 0% 0%;
@@ -1260,7 +1260,7 @@ i,u{font-style:normal;text-decoration:none;}
   /*right: auto;*/
   height: 21px;
   width: 100%;
-  background-image: url(./icon/downCoil.png);
+  background-image: url(icon/downCoil.png);
   background-repeat: repeat-x;
 
   -webkit-transform-origin: 0% 0%;
@@ -1599,30 +1599,30 @@ i,u{font-style:normal;text-decoration:none;}
 }
 
 .star {
-  -webkit-mask: url(./icon/star_mask.svg) no-repeat center center;
-  -ms-mask: url(./icon/star_mask.svg) no-repeat center center;
-  -o-mask: url(./icon/star_mask.svg) no-repeat center center;
-  -moz-mask: url(./icon/star_mask.svg) no-repeat center center;
+  -webkit-mask: url(../style/icon/star_mask.svg) no-repeat center center;
+  -ms-mask: url(../style/icon/star_mask.svg) no-repeat center center;
+  -o-mask: url(../style/icon/star_mask.svg) no-repeat center center;
+  -moz-mask: url(../style/icon/star_mask.svg) no-repeat center center;
 }
 
 .heart {
-  -webkit-mask: url(./icon/heart_mask.svg) no-repeat center center;
-  -ms-mask: url(./icon/heart_mask.svg) no-repeat center center;
-  -o-mask: url(./icon/heart_mask.svg) no-repeat center center;
-  -moz-mask: url(./icon/heart_mask.svg) no-repeat center center;
+  -webkit-mask: url(../style/icon/heart_mask.svg) no-repeat center center;
+  -ms-mask: url(../style/icon/heart_mask.svg) no-repeat center center;
+  -o-mask: url(../style/icon/heart_mask.svg) no-repeat center center;
+  -moz-mask: url(../style/icon/heart_mask.svg) no-repeat center center;
 }
 .rect {
-  -webkit-mask: url(./icon/rect_mask.svg) no-repeat center center;
-  -ms-mask: url(./icon/rect_mask.svg) no-repeat center center;
-  -o-mask: url(./icon/rect_mask.svg) no-repeat center center;
-  -moz-mask: url(./icon/rect_mask.svg) no-repeat center center;
+  -webkit-mask: url(../style/icon/rect_mask.svg) no-repeat center center;
+  -ms-mask: url(../style/icon/rect_mask.svg) no-repeat center center;
+  -o-mask: url(../style/icon/rect_mask.svg) no-repeat center center;
+  -moz-mask: url(../style/icon/rect_mask.svg) no-repeat center center;
 }
 
 .round {
-  -webkit-mask: url(./icon/centerblur.png) no-repeat center center;
-  -ms-mask: url(./icon/centerblur.png) no-repeat center center;
-  -o-mask: url(./icon/centerblur.png) no-repeat center center;
-  -moz-mask: url(./icon/centerblur.png) no-repeat center center;
+  -webkit-mask: url(../style/icon/centerblur.png) no-repeat center center;
+  -ms-mask: url(../style/icon/centerblur.png) no-repeat center center;
+  -o-mask: url(../style/icon/centerblur.png) no-repeat center center;
+  -moz-mask: url(../style/icon/centerblur.png) no-repeat center center;
 }
 
 .round:hover{
@@ -2115,7 +2115,7 @@ a {
 }
 
 .flipHTML5Loading {
-  background-image: url(./icon/progress.gif);
+  background-image: url(icon/progress.gif);
   background-position: center center;
   background-repeat: no-repeat no-repeat;
   background-repeat: no-repeat;
@@ -2817,7 +2817,7 @@ a {
 }
 
 .flipHtml5AnnotationImage-delete {
-  background-image: url(./icon/delete.png);
+  background-image: url(icon/delete.png);
 }
 
 .flipHtml5AnnotationImage-stroke, .flipHtml5AnnotationImage-fill {
@@ -3387,75 +3387,75 @@ a {
 }
 
 .flipHtml5RemarkImage-bold {
-  background-image: url(./icon/bold.png);
+  background-image: url(icon/bold.png);
 }
 
 .flipHtml5RemarkImage-strikeThrough {
-  background-image: url(./icon/strikethrough.png);
+  background-image: url(icon/strikethrough.png);
 }
 
 .flipHtml5RemarkImage-undo {
-  background-image: url(./icon/undo.png);
+  background-image: url(icon/undo.png);
 }
 
 .flipHtml5RemarkImage-delete {
-  background-image: url(./icon/delete.png);
+  background-image: url(icon/delete.png);
 }
 
 .flipHtml5RemarkImage-forecolor {
-  background: url(./icon/fontcolor.png) 0 2px;
+  background: url(icon/fontcolor.png) 0 2px;
 }
 
 .flipHtml5RemarkImage-redo {
-  background-image: url(./icon/redo.png);
+  background-image: url(icon/redo.png);
 }
 
 .flipHtml5RemarkImage-removeFormat {
-  background-image: url(./icon/clear.png);
+  background-image: url(icon/clear.png);
 }
 
 .flipHtml5RemarkImage-italic {
-  background-image: url(./icon/italic.png);
+  background-image: url(icon/italic.png);
 }
 
 .flipHtml5RemarkImage-underline {
-  background-image: url(./icon/underline.png);
+  background-image: url(icon/underline.png);
 }
 
 .flipHtml5RemarkImage-justifyLeft {
-  background-image: url(./icon/justyleft.png);
+  background-image: url(icon/justyleft.png);
 }
 
 .flipHtml5RemarkImage-justifyCenter {
-  background-image: url(./icon/justycenter.png);
+  background-image: url(icon/justycenter.png);
 }
 
 .flipHtml5RemarkImage-justifyRight {
-  background-image: url(./icon/justyright.png);
+  background-image: url(icon/justyright.png);
 }
 
 .flipHtml5RemarkImage-insertOrderedList {
-  background-image: url(./icon/orderlist.png);
+  background-image: url(icon/orderlist.png);
 }
 
 .flipHtml5RemarkImage-insertUnorderedList {
-  background-image: url(./icon/unorderlist.png);
+  background-image: url(icon/unorderlist.png);
 }
 
 .flipHtml5RemarkImage-blockquote {
-  background-image: url(./icon/blockquote.png);
+  background-image: url(icon/blockquote.png);
 }
 
 .flipHtml5RemarkImage-outdent {
-  background-image: url(./icon/oudent.png);
+  background-image: url(icon/oudent.png);
 }
 
 .flipHtml5RemarkImage-indent {
-  background-image: url(./icon/indent.png);
+  background-image: url(icon/indent.png);
 }
 
 .flipHtml5RemarkImage-createLink {
-  background-image: url(./icon/hyperlink.png);
+  background-image: url(icon/hyperlink.png);
 }
 
 .flipHtml5RemarkImage-backcolor {
@@ -3923,7 +3923,7 @@ a {
 .phoneBookmark .item{position:relative;width:100%;height:100px;line-height:100px;vertical-align:middle;font-size:15px;color:#aaaaaa;cursor:pointer;}
 .phoneBookmark .item span{margin:0 10px;float:left;display:inline-block;width:20px;}
 .phoneBookmark .item img{height:76px;float:left;margin:12px 0;}
-.phoneBookmark .item .close{position:absolute;cursor:pointer;top:30px;right:10px;width:41px;height:41px;background-position:-402px -429px;background-image: url(./phoneIcon/phone_icon.png);background-repeat: no-repeat;}
+.phoneBookmark .item .close{position:absolute;cursor:pointer;top:30px;right:10px;width:41px;height:41px;background-position:-402px -429px;background-image: url(phoneIcon/phone_icon.png);background-repeat: no-repeat;}
 .phoneBookmark .item .close:hover{background-position:-462px -429px;}
 
 .miniLogo{width:100px;right:0;bottom:0;opacity:0.5;position:absolute;cursor:pointer;z-index:100;}
@@ -5545,8 +5545,8 @@ a {
 	animation:standmove 16s infinite steps(1, end) both;
 	-webkit-animation:standmove 16s infinite steps(1, end) both;
 }
-.Alice{background:url("./icon/Alice.png") no-repeat;}
-.Peter{background:url("./icon/Peter.png") no-repeat;}
+.Alice{background:url("icon/Alice.png") no-repeat;}
+.Peter{background:url("icon/Peter.png") no-repeat;}
 @keyframes talkmove{
 	0% {
 		background-position:0 0;
@@ -5689,22 +5689,22 @@ a {
 }
 
 .assist-play .assist-icon{
-	background-image:url("./icon/player-play.png");
+	background-image:url("icon/player-play.png");
 }
 .assist-pause .assist-icon{
-	background-image:url("./icon/player-pause.png");
+	background-image:url("icon/player-pause.png");
 }
 .assist-next .assist-icon{
-	background-image:url("./icon/NE.png");
+	background-image:url("icon/NE.png");
 }
 .assist-prev .assist-icon{
-	background-image:url("./icon/PR.png");
+	background-image:url("icon/PR.png");
 }
 .assist-sound .assist-icon{
-	background-image:url("./icon/player-volume-full.png");
+	background-image:url("icon/player-volume-full.png");
 }
 .assist-muted .assist-icon{
-	background-image:url("./icon/player-volume.png");
+	background-image:url("icon/player-volume.png");
 }
 .assist-btn:hover{
 	opacity: 0.8;
@@ -5721,7 +5721,7 @@ a {
 .assist-close .assist-icon{
 	width:20px;
 	height:20px;
-	background-image:url("./icon/close.png");
+	background-image:url("icon/close.png");
 	-webkit-transform: rotate(0);
     -o-transform: rotate(0);
     -moz-transform: rotate(0);
@@ -6717,8 +6717,8 @@ a {
 	animation:standmove 16s infinite steps(1, end) both;
 	-webkit-animation:standmove 16s infinite steps(1, end) both;
 }
-.Alice{background:url("./icon/Alice.png") no-repeat;}
-.Peter{background:url("./icon/Peter.png") no-repeat;}
+.Alice{background:url("icon/Alice.png") no-repeat;}
+.Peter{background:url("icon/Peter.png") no-repeat;}
 @keyframes talkmove{
 	0% {
 		background-position:0 0;
