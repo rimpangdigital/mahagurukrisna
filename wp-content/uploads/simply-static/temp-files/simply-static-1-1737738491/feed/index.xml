@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Mahaguru Krisna Murti</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Mahaguru Krisna Murti</description>
+	<lastBuildDate>Sat, 06 Apr 2024 08:23:15 +0000</lastBuildDate>
+	<language>id</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+
+<image>
+	<url>https://i0.wp.com/mahagurukrisnart.com/wp-content/uploads/2024/08/Proyek-Baru-7.webp?fit=32%2C32&#038;ssl=1</url>
+	<title>Mahaguru Krisna Murti</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">231651140</site>	<item>
+		<title>Hello world!</title>
+		<link>./../hello-world/index.html</link>
+					<comments>./../hello-world/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 06 Apr 2024 08:23:15 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://mahakod.com/?p=1</guid>
+
+					<description><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Artikel <a href="./../hello-world/index.html">Hello world!</a> pertama kali tampil pada <a href="./../index.html">Mahaguru Krisna Murti</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Artikel <a href="./../hello-world/index.html">Hello world!</a> pertama kali tampil pada <a href="./../index.html">Mahaguru Krisna Murti</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../hello-world/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1</post-id>	</item>
+	</channel>
+</rss>
